@@ -6,6 +6,7 @@ package com.rogchen.common.cache;
  * {tags}
  */
 
+import com.rogchen.common.utils.spring.SpringBeanHolder;
 import org.apache.ibatis.cache.Cache;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +32,7 @@ public class RedisCache implements Cache
 {
     private static final Logger logger = LoggerFactory.getLogger(RedisCache.class);
 
-    private static JedisConnectionFactory jedisConnectionFactory;
+    private static JedisConnectionFactory jedisConnectionFactory =(JedisConnectionFactory)SpringBeanHolder.getBean("jedisConnectionFactory");;
 
     private final String id;
 
@@ -176,7 +177,9 @@ public class RedisCache implements Cache
     }
 
     public static void setJedisConnectionFactory(JedisConnectionFactory jedisConnectionFactory) {
-        RedisCache.jedisConnectionFactory = jedisConnectionFactory;
+        JedisConnectionFactory jd = (JedisConnectionFactory)SpringBeanHolder.getBean("jedisConnectionFactory");
+        jedisConnectionFactory = jd;
+//        RedisCache.jedisConnectionFactory = jedisConnectionFactory;
     }
 
 }

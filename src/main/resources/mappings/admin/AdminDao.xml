@@ -6,10 +6,10 @@
 <mapper namespace="com.rogchen.admin.dao.AdminDao">
 
     <!--ehcache-->
-    <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache" />-->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache" />
     <!--<cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
     <!--redis-->
-    <cache type="com.rogchen.common.cache.RedisCache"/>
+    <!--<cache type="com.rogchen.common.cache.RedisCache"/>-->
 
 
     <select id="findList" parameterType="java.util.Map" resultType="AdminUser">

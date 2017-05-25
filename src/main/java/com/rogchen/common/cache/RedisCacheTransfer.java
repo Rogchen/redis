@@ -24,7 +24,7 @@ public class RedisCacheTransfer
     @Autowired
     public void setJedisConnectionFactory(JedisConnectionFactory jedisConnectionFactory) {
         System.out.println(jedisConnectionFactory);
-        RedisCache.setJedisConnectionFactory(jedisConnectionFactory);
+//        RedisCache.setJedisConnectionFactory(jedisConnectionFactory);
     }
 
 }
