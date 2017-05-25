@@ -1,0 +1,462 @@
+@CHARSET "UTF-8";
+* {
+	font-size:14px;
+	font-weight:200;
+font-family: FontAwesome;
+}
+
+body {
+	
+	margin-right: -15px !important;
+	margin-bottom: -15px !important; 
+}
+.block {
+	display:block !important;
+}
+#dataForm {
+	margin-top:20px;
+}
+#dataForm label {
+	font-size:14px;
+	font-weight:100;
+}
+.table {
+	background-color:#fff;
+	position:absoulte;
+	height:63%;
+}
+.zntc-bottom {
+	border-bottom:1px solid #ddd;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+.zntc-list {
+	margin-bottom:0px;
+	margin-right:10px;
+}
+
+table tbody {
+    display:block;
+    height:430px;
+    overflow-y:scroll;
+}
+
+table thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+table thead {
+    width: calc( 100% - 1em )
+}
+#pageInfo {
+	position:relative;
+	margin-top:10px;
+}
+#pageInfo .pages {
+	padding-left:30px;
+}
+#pageInfo ul {
+	padding-left:300px;
+}
+#pageInfo .inline-b li {
+	display:inline;
+	margin-left:3px;
+}
+.border {
+	background:#fff;
+	margin-bottom:5px;
+	margin-left:0px;
+}
+.border .control-label {
+	display:block;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+.border span {
+	float:right;
+	position:relative;
+	left:-105%;
+
+}
+.border input {
+	
+}
+.offset {
+	padding-left:20px;
+	padding-bottom:5px;
+	
+}
+
+<!--链路图-->
+#home {
+	margin:15px 0px 0px 20px;
+	position: relative;
+}
+#home span {
+	margin-left: 10px;
+	display: block;
+}
+#home .top {
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width:110px;
+    margin-left: -4px;
+}
+.tip {
+	position:relative;
+	top:-20%;
+	left:70%;
+	margin-top:-16px;
+	margin-bottom:4px;
+	
+	
+}
+.circle {
+    font-size:10px;
+	border-left:8px solid #000;
+	border-right:8px solid #000;
+	border-radius:100%;
+	margin-bottom:3px;
+}
+.leg p:first-child {
+	
+	color:#209157;
+}
+.leg p {
+     margin-left: 5px;
+	 display: inline;
+}
+.bg {
+	background-color: #4ba6dd;
+	color:#fff;
+}
+.left-border {
+	position: absolute;
+	display: block;
+}
+
+.second {
+	
+	padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width:110px;
+    position: relative;
+    left:90%;
+    margin-top: 89px;
+}
+.second:before {
+	content: "";
+	position: absolute;
+	top:-228%;
+	left:-55%;
+    width:60px;
+    height: 120px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+.border-one {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:10%;
+     left:303%;
+}
+.border-one:before {
+	content:"";
+	position: absolute;
+	top:40%;
+	left:-55%;
+    width:60px;
+    height: 100px;
+    border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	
+}
+.border-two {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:100px;
+	 position: absolute;
+     top:30%;
+     left:303%;
+}
+.border-two:before {
+	content:"";
+	position: absolute;
+	top: -55%;
+	left:-130%;
+	width: 71px;
+	border-bottom: 2px solid #000;
+}
+.border-one-one {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:0%;
+     left: 525%;
+}
+.border-one-one:before {
+	content:"";
+	position: absolute;
+	top:50%;
+	left:-58%;
+    width:60px;
+    height: 100px;
+    border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	
+}
+.border-one-two {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:24%;
+     left: 525%;
+}
+.border-one-two:before {
+	content:"";
+	position: absolute;
+	top: -100%;
+	left:-125%;
+	width: 71px;
+	border-bottom: 2px solid #000;
+}
+.border-one-one-one {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:-10%;
+     left:745%;
+}
+.border-one-one-one:before {
+	content:"";
+	position: absolute;
+	top:50%;
+	left:-58%;
+    width:60px;
+    height: 100px;
+    border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	
+}
+.border-one-one-two {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:12%;
+     left:745%;
+}
+.border-one-one-two:before {
+	content:"";
+	position: absolute;
+	top: -85%;
+	left:-125%;
+	width: 71px;
+	border-bottom: 2px solid #000;
+}
+.third {
+	
+	padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width:110px;
+    position: relative;
+    left:90%;
+    margin-top: 120px;
+}
+.third:before {
+	content: "";
+	position: absolute;
+	top:-375%;
+	left:-55%;
+    width:60px;
+    height: 180px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+.third-border-one {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:43%;
+     left:305%;
+}
+.third-border-one:before {
+	content:"";
+	position: absolute;
+	top:50%;
+	left:-58%;
+    width:60px;
+    height: 100px;
+    border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	
+}
+.third-border-two {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:64%;
+     left:305%;
+}
+.third-border-two:before {
+	content:"";
+	position: absolute;
+	top: -50%;
+	left:-120%;
+	width: 71px;
+	border-bottom: 2px solid #000;
+}
+.third-border-one-one {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:35%;
+     left:520%;
+}
+.third-border-one-one:before {
+	content:"";
+	position: absolute;
+	top:46%;
+	left:-55%;
+    width:60px;
+    height: 100px;
+    border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	
+}
+.third-border-one-two {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:55%;
+     left:520%;
+}
+.third-border-one-two:before {
+	content:"";
+	position: absolute;
+	top: -55%;
+	left:-120%;
+	width: 71px;
+	border-bottom: 2px solid #000;
+}
+.third-border-one-one-one {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:23%;
+     left:743%;
+}
+.third-border-one-one-one:before {
+	content:"";
+	position: absolute;
+	top:50%;
+	left:-60%;
+    width:60px;
+    height: 100px;
+    border-top: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	
+}
+.third-border-one-one-two {
+	 border: 1px solid #000;
+	 border-radius: 5px;
+	 width:110px;
+	 position: absolute;
+     top:43%;
+     left:743%;
+}
+.third-border-one-one-two:before {
+	content:"";
+	position: absolute;
+	top: -50%;
+	left:-125%;
+	width: 71px;
+	border-bottom: 2px solid #000;
+}
+.four {
+	
+	padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width:110px;
+    position: relative;
+    left:90%;
+    margin-top: 120px;
+}
+.four:before {
+	content: "";
+	position: absolute;
+	top:-380%;
+	left:-55%;
+    width:60px;
+    height: 180px;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+table thead th, table tbody td {
+	text-align:center;
+}
+
+/*元素整体样式by qhf*/
+select {
+	height: 28px;
+	width: 150px;
+	text-align: center;
+}
+input{
+	width: 150px;
+}
+label{
+	margin-left: 20px;
+}
+
+input[type=checkbox]{
+	width: 10px;
+}
+
+/*list页面样式by qhf*/
+table input{/*table中复选框的样式*/
+	width: 10px;
+}
+.button-area{
+	margin-left: -3%;
+	margin-bottom: 0px;
+	margin-top: 8px;
+}
+
+
+/*edit页面样式by qhf*/
+.edit-button{
+	float:left;
+	height:40px;
+	padding-left: 40%;
+}
+.nav li.dropdown a{display:inline-block;}
+

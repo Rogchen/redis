@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rogchen.admin.dao.AdminDao">
+
+    <!--ehcache-->
+    <!--<cache type="org.mybatis.caches.ehcache.LoggingEhcache" />-->
+    <!--<cache type="org.mybatis.caches.ehcache.EhcacheCache"/>-->
+    <!--redis-->
+    <cache type="com.rogchen.common.cache.RedisCache"/>
+
+
+    <select id="findList" parameterType="java.util.Map" resultType="AdminUser">
+        select a.*
+        FROM admin_user a
+    </select>
+
+
+</mapper>
