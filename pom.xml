@@ -35,7 +35,7 @@
         <jackson.version>2.2.1</jackson.version>
         <xstream.version>1.4.7</xstream.version>
         <ehcache.version>2.6.6</ehcache.version>
-        <solr.version>4.4.0</solr.version>
+        <solr.version>8.8.2</solr.version>
 
         <lucene.version>4.4.0</lucene.version>
 
