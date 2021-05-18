@@ -33,7 +33,7 @@
         <commons-beanutils.version>1.8.3</commons-beanutils.version>
         <poi.version>3.9</poi.version>
         <jackson.version>2.2.1</jackson.version>
-        <xstream.version>1.4.7</xstream.version>
+        <xstream.version>1.4.17</xstream.version>
         <ehcache.version>2.6.6</ehcache.version>
         <solr.version>4.4.0</solr.version>
 
